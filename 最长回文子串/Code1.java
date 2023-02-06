@@ -6,7 +6,7 @@ package 最长回文子串;
  * @desc 给你一个字符串 s，找到 s 中最长的回文子串。
          如果字符串的反序与原始字符串相同，则该字符串称为回文字符串。
    @example s = "babad"   output = "bab"
-   @solution 暴力破解
+   @solution 暴力破解 时间复杂度O(N*N*N)
          
  */
 public class Code1 {

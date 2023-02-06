@@ -8,7 +8,11 @@ package 动态规划练习.整数拆分;
  * 解释: 2 = 1 + 1, 1 × 1 = 1
  */
 public class Code {
-
+    /**
+     * 时间复杂度O(N*N)  空间复杂度O(N)
+     * @param n
+     * @return
+     */
     public int integerBreak(int n) {
         int[] dp = new int[n+1];
         dp[0] = 0;
@@ -19,7 +23,6 @@ public class Code {
             for (int j = 0; j <= i / 2; j++) {
                dp[i] = Math.max(dp[i],Math.max(j * (i - j), j * dp[i - j]));
             }
-
         }
         return dp[n];
     }

@@ -52,7 +52,7 @@ public class Code2 {
                 if (charArray[i] != charArray[j]) {
                     dp[i][j] = false;
                 } else {
-                    //如果去掉头尾不构成区间<2  ===> j-1 -(i+1)+1 <2 ===> j-i <3
+                    //如果去掉头尾不构成区间<2  ===> j- 1 -(i+1)+1 <2 ===> j-i <3
                     if (j - i < 3) {
                         dp[i][j] = true;
                     } else {
