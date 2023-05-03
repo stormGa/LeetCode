@@ -1,3 +1,4 @@
 # LeetCode
 
-Modify the readme file
+刷题记录
+* 剑指offer第二版 (√)
