@@ -1,4 +1,4 @@
-package 两数之和;
+package 题库刷.两数之和;
 
 import java.util.HashMap;
 
